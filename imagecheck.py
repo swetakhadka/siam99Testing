@@ -64,6 +64,7 @@ else:
         print("These image URLs are found in the webpage elements but not in the network logs:")
         for url in missing_in_network:
             print(url)
+print("hello")
 
 # Close the driver
 driver.quit()
